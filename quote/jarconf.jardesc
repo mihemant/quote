@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jardesc>
+    <jar path="C:/Projects/quote-jars/quote.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/quote/jarconf.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="true" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal>
+                <package handleIdentifier="=quote/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;com.avaya.psn.quote"/>
+            </packagesToSeal>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+        <file path="/quote/mvnw.cmd"/>
+        <folder path="/quote/src"/>
+        <file path="/quote/.classpath"/>
+        <javaElement handleIdentifier="=quote/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/"/>
+        <javaElement handleIdentifier="=quote/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/"/>
+        <file path="/quote/.gitignore"/>
+        <javaElement handleIdentifier="=quote/src\/main\/resources=/maven.pomderived=/true=/"/>
+        <file path="/quote/HELP.md"/>
+        <file path="/quote/mvnw"/>
+        <file path="/quote/.project"/>
+        <folder path="/quote/target"/>
+        <file path="/quote/pom.xml"/>
+    </selectedElements>
+</jardesc>
